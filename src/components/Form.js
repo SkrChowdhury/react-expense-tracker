@@ -2,21 +2,21 @@ import React from "react";
 
 export default function Form() {
   return (
-    <div class="form">
+    <div className="form">
       <h3>Add new transaction</h3>
 
-      <div class="form-group">
+      <div className="form-group">
         <label for="transaction_name">Name</label>
         <input type="text" name="transaction_name" placeholder="My Salary" />
       </div>
 
-      <div class="form-group radio">
+      <div className="form-group radio">
         <label for="transaction_type">Type</label>
-        <div class="radio_group">
+        <div className="radio_group">
           <input type="radio" value="income" name="transaction_type" checked />
           <label for="transaction_type">Income</label>
         </div>
-        <div class="radio_group">
+        <div className="radio_group">
           <input
             type="radio"
             value="expense"
@@ -27,14 +27,14 @@ export default function Form() {
         </div>
       </div>
 
-      <div class="form-group">
+      <div className="form-group">
         <label for="transaction_amount">Amount</label>
         <input type="number" placeholder="300" name="transaction_amount" />
       </div>
 
-      <button class="btn">Add Transaction</button>
+      <button className="btn">Add Transaction</button>
 
-      <button class="btn cancel_edit">Cancel Edit</button>
+      <button className="btn cancel_edit">Cancel Edit</button>
     </div>
   );
 }

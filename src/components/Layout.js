@@ -1,13 +1,13 @@
 export default function Layout({ children }) {
   return (
-    <div class="App">
-      <div class="header">
+    <div className="App">
+      <div className="header">
         <h1>Expense Tracker</h1>
       </div>
-      <div class="main">
-        <div class="container">{children}</div>
+      <div className="main">
+        <div className="container">{children}</div>
       </div>
-      <div class="footer">&copy;2024 SkrChowdhury</div>
+      <div className="footer">&copy;2024 SkrChowdhury</div>
     </div>
   );
 }

@@ -4,21 +4,21 @@ import editImage from "../../assets/images/edit.svg"
 
 export default function Transaction() {
   return (
-    <li class="transaction income">
+    <li className="transaction income">
     <p>Earned this month</p>
-    <div class="right">
+    <div className="right">
         <p>৳ 100</p>
-        <button class="link">
+        <button className="link">
             <img
             alt='Edit'
-                class="icon"
+                className="icon"
                 src={editImage}
             />
         </button>
-        <button class="link">
+        <button className="link">
             <img
                  alt='Delete'
-                class="icon"
+                className="icon"
                 src={deleteImage}
             />
         </button>
