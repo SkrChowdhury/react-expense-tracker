@@ -23,15 +23,15 @@ Expense Tracker is a simple web application that allows users to track their inc
    git clone https://github.com/SkrChowdhury/react-expense-tracker
    cd react-expense-tracker
 
-2.	Install dependencies for the client:
+2.	**Install dependencies for the client**:
    ```bash
    yarn install
 
-3.	Run the React app:
+3.	**Run the React app**:
    ```bash
    yarn start
 
-4.	Setting up the server:
+4.	**Setting up the server**:
 
    ```bash
    cd server
@@ -44,7 +44,7 @@ Expense Tracker is a simple web application that allows users to track their inc
         ```bash
         yarn start
 
-5.	Access the app:
+5.	**Access the app**:
 
 Once both the server and client are running, the app should be available at http://localhost:3000.
 
