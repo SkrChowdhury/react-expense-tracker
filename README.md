@@ -29,19 +29,16 @@ Expense Tracker is a simple web application that allows users to track their inc
   ` yarn start`
 
 4.	**Setting up the server**:
-
-   ` cd server`
+    ` cd server`
 
    • Install server dependencies:
-
-       ` yarn install`
+     ` yarn install`
         
    • Start the server:
        ` yarn start`
 
 5.	**Access the app**:
-
-`Once both the server and client are running, the app should be available at http://localhost:3000.`
+    `Once both the server and client are running, the app should be available at http://localhost:3000.`
 
 
 
