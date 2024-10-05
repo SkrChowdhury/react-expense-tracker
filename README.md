@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Expense Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Expense Tracker is a simple web application that allows users to track their income and expenses. Users can add, edit, and delete transactions. A transaction list displays all the added incomes and expenses.
 
-## Available Scripts
+## Features
+- **Add Income/Expense**: Users can add transactions for either income or expenses.
+- **Edit Transactions**: Existing transactions can be modified.
+- **Delete Transactions**: Users can remove any transaction from the list.
+- **Transaction List**: A detailed list of all the income and expense entries is displayed.
 
-In the project directory, you can run:
+## Technologies Used
+- **React JS**: Frontend framework
+- **Redux Toolkit**: State management
+- **JavaScript**: Programming language
 
-### `npm start`
+## Project Image
+![Expense Tracker](https://raw.githubusercontent.com/SkrChowdhury/react-expense-tracker/refs/heads/main/expense-tracker-image.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How to Run the Project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/SkrChowdhury/react-expense-tracker
+   cd react-expense-tracker
 
-### `npm test`
+2.	Install dependencies for the client:
+   ```bash
+   yarn install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3.	Run the React app:
+   ```bash
+   yarn start
 
-### `npm run build`
+4.	Setting up the server:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   cd server
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   • Install server dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+       ` yarn install`
+        
+   • Start the server:
+        ```bash
+        yarn start
 
-### `npm run eject`
+5.	Access the app:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Once both the server and client are running, the app should be available at http://localhost:3000.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
