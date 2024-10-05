@@ -2,15 +2,21 @@
   "transactions": [
     {
       "name": "Salary",
+      "amount": "30000",
       "type": "income",
-      "amount": 20000,
       "id": 4
     },
     {
-      "name": "upori income",
-      "type": "income",
-      "amount": 20000,
+      "name": "Mac Book",
+      "type": "expense",
+      "amount": 150000,
       "id": 5
+    },
+    {
+      "name": "Project ",
+      "type": "income",
+      "amount": 50000,
+      "id": 6
     }
   ]
 }
