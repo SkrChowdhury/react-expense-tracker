@@ -23,21 +23,21 @@ Expense Tracker is a simple web application that allows users to track their inc
   ` cd react-expense-tracker`
 
 2.	**Install dependencies for the client**:
-    `yarn install`
+    ` yarn install`
 
 3.	**Run the React app**:
   ` yarn start`
 
 4.	**Setting up the server**:
 
-   `cd server`
+   ` cd server`
 
    • Install server dependencies:
 
        ` yarn install`
         
    • Start the server:
-       `yarn start`
+       ` yarn start`
 
 5.	**Access the app**:
 
